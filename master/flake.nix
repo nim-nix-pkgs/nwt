@@ -11,6 +11,7 @@
   inputs.src-nwt-master.ref   = "refs/heads/master";
   inputs.src-nwt-master.owner = "enthus1ast";
   inputs.src-nwt-master.repo  = "nimWebTemplates";
+  inputs.src-nwt-master.dir   = "";
   inputs.src-nwt-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
