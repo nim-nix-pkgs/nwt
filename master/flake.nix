@@ -11,8 +11,15 @@
   inputs.src-nwt-master.ref   = "refs/heads/master";
   inputs.src-nwt-master.owner = "enthus1ast";
   inputs.src-nwt-master.repo  = "nimWebTemplates";
-  inputs.src-nwt-master.dir   = "";
   inputs.src-nwt-master.type  = "github";
+  
+  inputs."github.com/enthus1ast/nimcommandparser".owner = "nim-nix-pkgs";
+  inputs."github.com/enthus1ast/nimcommandparser".ref   = "master";
+  inputs."github.com/enthus1ast/nimcommandparser".repo  = "github.com/enthus1ast/nimcommandparser";
+  inputs."github.com/enthus1ast/nimcommandparser".dir   = "";
+  inputs."github.com/enthus1ast/nimcommandparser".type  = "github";
+  inputs."github.com/enthus1ast/nimcommandparser".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."github.com/enthus1ast/nimcommandparser".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
   let 
