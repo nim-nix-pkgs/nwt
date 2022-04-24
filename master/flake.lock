@@ -33,11 +33,11 @@
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1648447338,
-        "narHash": "sha256-uXxouyrmXY1e/hGTV4rmVKk2TdjZRguV4lr9kAH0NlI=",
+        "lastModified": 1650754281,
+        "narHash": "sha256-IFF/HcFCpaOQx2I3ZdruzF9StU0suPBrUSryJd9K2wk=",
         "owner": "nim-nix-pkgs",
         "repo": "github-enthus1ast-nimcommandparser",
-        "rev": "d13f3209abc47bb62967a5c7feaa5f78da7fa3f7",
+        "rev": "5d6307a038f5e90597dcdbb221374712e96ababc",
         "type": "github"
       },
       "original": {
