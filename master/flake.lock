@@ -33,11 +33,11 @@
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1662254500,
-        "narHash": "sha256-nipkLjcA6tS9IhNlHvPp9mDXxPCK7zkyZioKub6DKhg=",
+        "lastModified": 1667322311,
+        "narHash": "sha256-zPcfwYnJ/VLCBbyz/qSlCslBRyd7v520o0+citH7n4M=",
         "owner": "nim-nix-pkgs",
         "repo": "github-enthus1ast-nimcommandparser",
-        "rev": "5b6ea37eb7bb238838fb3e10adeca31a52a6d7fe",
+        "rev": "3e0aab5f35255c7caed01f8bb6af1763c2fba279",
         "type": "github"
       },
       "original": {
@@ -50,11 +50,11 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1667085676,
-        "narHash": "sha256-jPHYYoSdrV3ypWG4oi9SUeI2MU6dLjxM88+9io5Rrx0=",
+        "lastModified": 1667199707,
+        "narHash": "sha256-I2Js3Y7gUyVSEXPULHlBoRek4Lh85vnevdS6mdvDNLI=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "e6e6bad81b7e11f37d893ef39712ce8918ae2338",
+        "rev": "ced197be72099edcfa68ebed8b87af7b04851f45",
         "type": "github"
       },
       "original": {
